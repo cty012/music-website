@@ -1,8 +1,10 @@
 .git
 .gitignore
+
 .elasticbeanstalk
 .ebignore
 
 .DS_Store
+.vscode
 
 node_modules
