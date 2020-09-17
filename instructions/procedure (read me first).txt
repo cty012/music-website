@@ -1,0 +1,17 @@
+This document will show you how to set up the website.
+
+There are two folders that you will be operating in.
+    home: Defines the contents of the home page.
+    music: Contains and arranges all music files and description files that will be displayed on the website.
+
+Procedure:
+1. Put all music files and description files in the music folder and arrange them properly. (More detailed instructions: ./more/how to arrange music files.txt)
+    (I already put mine in the music folder and they are properly arranged. Just do the same with the rest.)
+2. Add the contents in the home page. (More detailed instructions: ./more/how to change home content.txt)
+3. (OPTIONAL) Preview the website locally. (More detailed instructions: ./more/how to preview the website locally before deploying.txt)
+4. Deploy the website online (More detailed instructions: ./more/how to deploy the website onto the Internet.txt)
+
+How to update the website depends on the host you are using for deploying the website (step 4).
+Usually, you just need to change the contents and then repeat step 4.
+
+Contact Daniel if you have any question.

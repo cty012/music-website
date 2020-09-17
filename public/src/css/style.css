@@ -1,0 +1,302 @@
+/* body */
+html, body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: "Arial";
+}
+
+button {
+    border-style: outset;
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: none;
+}
+
+button:active {
+    border-style: inset;
+}
+
+:focus {
+    outline: 0;
+}
+
+/* regular */
+#header {
+    background-color: #606055;
+    width: 100%;
+    height: 99px;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+
+#menu {
+    background-color: #444444;
+    margin-right: 1px solid #000000;
+    width: 249px;
+    height: calc(100% - 100px);
+    float: left;
+}
+
+#menu-content {
+    background-color: #ffffe6;
+    width: calc(100% - 250px);
+    height: calc(100% - 100px);
+    overflow: hidden;
+    float: left;
+}
+
+/* header */
+#header-title {
+    margin: 25px 0px 0px 20px;
+    width: 800px;
+    height: 80px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Cambria";
+    color: #fff0f0;
+    float: left;
+}
+
+#header-search {
+    margin: 38px 80px 0px 0px;
+    width: 280px;
+    float: right;
+}
+
+#search-bar {
+    border-width: 2px;
+    border-style: inset;
+    padding: 0px 10px;
+    width: 200px;
+    height: 20px;
+    float: left;
+}
+
+#search-icon {
+    background-color: #909070;
+    width: 24px;
+    float: left;
+}
+
+/* menu */
+#menu-button-holder {
+    width: 100%;
+    height: calc(100% - 110px);
+    padding-top: 10px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+#menu-button-holder::-webkit-scrollbar {
+    display: none;
+}
+
+.menu-button {
+    margin: 10px 15px;
+    width: calc(100% - 30px);
+    height: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Times";
+    overflow: hidden;
+}
+
+#pds-info {
+    padding: 20px 0px;
+    text-align: center;
+    line-height: 130%;
+    color: #aaa0a0;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Cambria";
+}
+
+/* home */
+#home-msg {
+    margin: 20px 0px;
+    width: 100%;
+    height: calc(100% - 140px);
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+#home-msg::-webkit-scrollbar {
+    display: none;
+}
+
+.home-paragraph {
+    margin: 25px 50px;
+    font-size: 20px;
+    font-family: "Cambria";
+}
+
+/* menu content */
+#bar {
+    margin: 6px 16px;
+    width: calc(100% - 34px);
+    height: 86px;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+}
+
+#bar-box {
+    width: calc(100% - 60px);
+    height: 100%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    float: left;
+    /* Firfox */
+    scrollbar-width: thin;
+    scrollbar-color: #818B99 #eeeee6;
+}
+
+/* Chromium browsers */
+#bar-box::-webkit-scrollbar {
+    height: 10px;
+}
+
+#bar-box::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+#bar-box::-webkit-scrollbar-thumb {
+    background-color: #818B99;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-clip: content-box;
+}
+/* */
+
+#arrow-left {
+    background-color: teal;
+    opacity: 0.3;
+    position: relative;
+    width: 30px;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float: left;
+}
+
+#arrow-right {
+    background-color: teal;
+    opacity: 0.3;
+    position: relative;
+    width: 30px;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    float: right;
+}
+
+.bar-box:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.bar-button {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 8px;
+    width: 62px;
+    height: 62px;
+    border-radius: 10%;
+    font-size: 15px;
+    font-family: "Calibri";
+    white-space: normal;
+}
+
+#bar-content {
+    width: 100%;
+    height: calc(100% - 200px);
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+#bar-content::-webkit-scrollbar {
+    display: none;
+}
+
+/* music info */
+#music-header {
+    margin: 10px 15px 0px 15px;
+    height: 20px;
+}
+
+#music-list {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.music-info {
+    width: 100%;
+    height: 35px;
+    float: top;
+    text-align: center;
+    font-size: 18px;
+    font-family: "times";
+    line-height: 150%;
+}
+
+.music-info:nth-child(odd) {
+    background: #eeeee0
+}
+
+.music-info:nth-child(even) {
+    background: #ffffe6
+}
+
+.music-button-holder {
+    width: 8%;
+}
+
+.music-button {
+    margin-top: 6px;
+    width: 35px;
+    height: 35px;
+}
+
+.music-name {
+    width: 25%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.music-description {
+    width: 40%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.music-composer {
+    width: 17%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.music-year {
+    width: 10%;
+}
+
+/* utils */
+.hidden {
+    display: none;
+}
+
+.pressed {
+    background-color: #aaaaff;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.left {
+    text-align: left;
+}

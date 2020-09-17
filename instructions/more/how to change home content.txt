@@ -1,0 +1,16 @@
+How to Change Home Content:
+
+The contents of the "Home" tab is located in the txt file under the path: home/msg.txt
+
+The format of this text file is DIFFERENT from the format of description files.
+When the home content is displayed on a website:
+(1) The server reads the contents of the "msg.txt" file and saves it as a string.
+(2) The server then removes blank spaces and line breaks at the beginning and end of the string.
+(3) Finally, the string is sent to the browser and displayed as a string.
+
+Therefore, when writing the msg.txt file:
+(1) One paragraph should be in one line.
+(2) There can be multiple line breaks between paragraphs.
+(3) Using another editor to write the contents is highly recommended. After that paste the contents into the msg.txt file.
+
+Contact Daniel if you have any question or want to change anything above.

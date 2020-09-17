@@ -1,0 +1,30 @@
+How to Arrange Music Files:
+
+1. Arrangement of music files and description files:
+All music files should be put in the "music" folder under the project folder, which is the folder I sent to you.
+
+The path of any music file should look like this:
+Music file:
+    music/[year]/[composer]/[index]_[music-name]/[music-name].mp3
+Description file:
+    music/[year]/[composer]/[index]_[music-name]/description.txt
+
+[year]: 4 numbers that represent the year of the class. (e.g. 2020)
+[composer]: Name of the composer of the music. (e.g. Daniel, daniel, Daniel Cao)
+    Format doesn't matter as long as it identifies students, but don't make it too long.
+[index]: Defines the order it will be displayed on the website. (e.g. 1, 2, 3, 10, 11)
+    Important: Start from 1! Don't skip any number!
+    The [index] will not be displayed on the website. It is only for sorting the music in order.
+[music-name]: Full name of the music.
+
+2. How to add description:
+When a description is displayed on a website:
+(1) The server reads the contents of the "description.txt" file and saves it as a string.
+(2) The server then removes blank spaces and line breaks at the beginning and end of the string.
+(3) Then, all line breaks in the middle will be turned into blank spaces.
+(4) Finally, the string is sent to the browser and displayed as a string in ONE line.
+
+Therefore, feel free to add line breaks in the middle of the description, since they will all become blank spaces.
+Also, don't make it too long so that it fits the space given in the html file.
+
+3. Contact Daniel if you have any question or want to change anything above.

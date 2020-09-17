@@ -1,0 +1,7 @@
+If you already have a way of putting the website online, then skip this document.
+
+If you don't know how to do that:
+
+To deploy it online, one way is to find an online host to provide you the server.
+I would recommend Amazon Web Service (AWS) since it is free and stable and can be accessed in China, but I don't even know how to use it myself...
+Therefore, contact Steven for instructions. (I guess the school or Dr. Weihsing Wang can help as well)

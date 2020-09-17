@@ -1,0 +1,17 @@
+How to Preview the Website Locally Before Deploying
+
+This is useful because you can check if everything works properly before deploying it for everyone to see.
+However, it is NOT RECOMMENDED, because you need to install node.js first.
+
+1. How to install node.js:
+(1) Go to nodejs.org and download the version that matches your operating system
+(2) Follow the instructions of installing
+
+2. How to start the local server:
+(1) Open the command line (Command Prompt for Win10 and Terminal for Mac)
+(2) Navigate into the project folder (music-website)
+(3) Type: npm start
+(4) Go to a reliable browser (Chrome, Firefox, definitely not IE) and type: localhost:8080
+Now you should be able to see the website.
+
+3. Contact Daniel if you have any question.

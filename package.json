@@ -1,0 +1,17 @@
+{
+  "name": "music-website",
+  "version": "1.0.0",
+  "description": "music website for Dr. Andrew Bleckner's music composition class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Daniel Cao",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.673.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1"
+  }
+}

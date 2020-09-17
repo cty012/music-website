@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+
+<title>Bleckner Music Composition Class</title>
+<link rel="shortcut icon" type="image/ico" href="/src/img/favicon.ico" sizes="16x16" />
+<link rel="stylesheet" type="text/css" href="/src/css/style.css">
+<link rel="stylesheet" type="text/css" href="/src/css/music.css">
+
+<!-- load data, later change to XMLHttpRequest -->
+<script type="text/javascript">
+var myMusics = <%- JSON.stringify(data.musics) %>;
+var homeMsg = <%- JSON.stringify(data.msg) %>;
+var audio = new Audio();
+volume = 1;
+audio.preload = "metadata";
+audio.onended = () => {
+    audio.currentTime = 0;
+    document.getElementById("mp-controls-play").src = "/src/img/play.png";
+}
+</script>
+<script src="/src/js/init.js"></script>
+<script src="/src/js/button.js"></script>
+<script src="/src/js/music.js"></script>
+<script src="/src/js/search.js"></script>
+
+</head>
+
+<body id="body" onload="init()">
+    <div id="header">
+        <div id="header-title">Dr. Andrew Bleckner's Music Composition Class</div>
+        <div id="header-search">
+            <input id="search-bar" type="text" />
+            <img id="search-icon" src="/src/img/search.png" onclick="search()"></img>
+        </div>
+    </div>
+    <div id="menu">
+        <div id="menu-button-holder"></div>
+        <div id="pds-info">Website Made By<br>Tianyue Cao & Tongyu Lu<br>PRISMS Developer Society</div>
+    </div>
+    <div id="menu-content">
+        <div id="home-msg"></div>
+        <div id="bar"></div>
+        <div id="bar-content">
+            <div id="music-header"></div>
+            <table id="music-list">
+                <thead id="music-head">
+                </thead>
+                <tbody id="music-body">
+                </tbody>
+            </table>
+        </div>
+        <div id="music-player"></div>
+    </div>
+</body>
+
+</html>
